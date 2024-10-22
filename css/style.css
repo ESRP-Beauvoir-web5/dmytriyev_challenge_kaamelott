@@ -35,12 +35,12 @@ header div span {
   margin-left: 1rem;
 }
 
-main,
+.main,
 footer {
   background: #d3d3d3;
 }
 
-main {
+.main {
   display: inline-block;
   width: 70%;
   margin: 0 0 0 15%;
@@ -57,14 +57,16 @@ main {
   margin: 1em;
 }
 
-#presentation h2 {
+#presentation h2,
+#acteurs h2 {
   font-size: 2rem;
   padding: 1rem;
 }
 
 #presentation h3 strong,
 h2,
-#synopsis h2 {
+#synopsis h2,
+#acteurs h2 {
   font-weight: bold;
 }
 
@@ -83,10 +85,22 @@ header,
 #presentation h2,
 #presentation p,
 #presentation div,
-footer {
+footer,
+#acteurs {
   text-align: center;
 }
 
+#acteurs ul {
+  color: #8b0000;
+  font-size: 1rem;
+  list-style: none;
+}
+
+#acteurs li {
+  background: #d3d3d3;
+  margin: 0 25rem 0.3em 25rem;
+  border-radius: 10px;
+}
 footer {
   padding: 2rem;
   margin: 1em;
