@@ -101,7 +101,11 @@ footer,
   margin: 0 25rem 0.3em 25rem;
   border-radius: 10px;
 }
+li:hover {
+  font-weight: 700;
+}
 footer {
   padding: 2rem;
   margin: 1em;
 }
+
