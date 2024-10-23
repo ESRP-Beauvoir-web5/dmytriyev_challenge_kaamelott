@@ -16,6 +16,10 @@ header {
   margin-top: 1.3rem;
 }
 
+header img {
+  width: 40em;
+}
+
 header div {
   margin: 1em 4em 0.7em 4em;
 }
@@ -36,8 +40,14 @@ header div span {
 }
 
 .main,
-footer {
+footer,
+#acteurs li,
+.img {
   background: #d3d3d3;
+}
+
+.red {
+  color: #8b0000;
 }
 
 .main {
@@ -58,7 +68,8 @@ footer {
 }
 
 #presentation h2,
-#acteurs h2 {
+#acteurs h2,
+#images h2 {
   font-size: 2rem;
   padding: 1rem;
 }
@@ -66,16 +77,19 @@ footer {
 #presentation h3 strong,
 h2,
 #synopsis h2,
-#acteurs h2 {
+#acteurs h2,
+#images h2,
+#images h3 {
   font-weight: bold;
 }
 
-#synopsis p {
+#synopsis p,
+#images p {
   margin-top: 1rem;
 }
 
-#synopsis h2 {
-  color: #8b0000;
+#synopsis h2,
+#images h3 {
   padding-top: 1rem;
   font-size: 1.5rem;
 }
@@ -86,26 +100,36 @@ header,
 #presentation p,
 #presentation div,
 footer,
-#acteurs {
+#acteurs,
+#images {
   text-align: center;
 }
 
 #acteurs ul {
-  color: #8b0000;
   font-size: 1rem;
   list-style: none;
 }
 
 #acteurs li {
-  background: #d3d3d3;
   margin: 0 25rem 0.3em 25rem;
   border-radius: 10px;
 }
+
 li:hover {
-  font-weight: 700;
+  font-weight: 800;
 }
+
+#images img {
+  width: 20em;
+  margin-top: 1em;
+}
+
+.img {
+  margin: 0 33em 1em 33em;
+  border: solid 2px #545454;
+}
+
 footer {
   padding: 2rem;
   margin: 1em;
 }
-
